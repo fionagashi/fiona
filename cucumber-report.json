@@ -1,0 +1,71 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "add-a-new-task-in-the-todo-app;add-a-task-with-valid-name",
+        "keyword": "Scenario",
+        "line": 2,
+        "name": "Add a task with valid name",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1771254799
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "User get in the application",
+            "match": {
+              "location": "features\\support\\createACategoryFeature.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1754604398.9999998
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User open the Categories form and creates a new Category with UpperCase",
+            "match": {
+              "location": "features\\support\\createACategoryFeature.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 12553669300
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 5,
+            "name": "This Category appears in the Category list",
+            "match": {
+              "location": "features\\support\\createACategoryFeature.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 114910399
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "add-a-new-task-in-the-todo-app",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Add a new task in the Todo app",
+    "tags": [],
+    "uri": "features\\createACategory.feature"
+  }
+]
